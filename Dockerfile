@@ -1,5 +1,5 @@
-FROM itzg/minecraft-server
+FROM dorowu/ubuntu-desktop-lxde-vnc
 
-RUN docker run -e EULA=TRUE -d -p 25565:25565 --name mc itzg/minecraft-server
+RUN docker run -p 8080:8080 dorowu/ubuntu-desktop-lxde-vnc
 
 
